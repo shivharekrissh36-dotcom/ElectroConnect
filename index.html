@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ElectroConnect - The premium SaaS platform connecting industrial clients with top-tier, verified electrical engineering firms. Manage portfolios, showcase employees, and secure major projects.">
+    <title>ElectroConnect | Premium Industrial Electrical SaaS</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="site-wrapper">
+
+    <!-- LANDING PAGE VIEW -->
+    <div id="landing-page-view">
+        <!-- Floating Tech Background -->
+        <div class="tech-bg-grid"></div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+
+        <!-- Header / Navigation -->
+        <header class="main-header">
+            <div class="header-container">
+                <a href="#home" class="logo">
+                    <span class="logo-bolt"><i class="fa-solid fa-bolt-lightning"></i></span>
+                    <span class="logo-text">Electro<span class="accent-text">Connect</span></span>
+                </a>
+                <nav class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#companies" class="nav-link">Companies</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#employees" class="nav-link">Team</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="btn btn-secondary btn-sm" id="btn-portal-login">
+                        <i class="fa-solid fa-right-to-bracket"></i> Partner Login
+                    </button>
+                    <button class="btn btn-primary btn-sm" id="btn-portal-signup">
+                        Create Profile
+                    </button>
+                    <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <div class="section-container hero-container">
+                <div class="hero-content">
+                    <div class="badge-glow">
+                        <span class="badge-dot"></span> Next-Gen Industrial Sourcing
+                    </div>
+                    <h1 class="hero-title">
+                        Connect Industrial Clients with <span class="text-gradient">Trusted Electrical Experts</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        The elite SaaS platform where top-tier electrical engineering firms showcase complex projects, verify master credentials, and win high-value industrial contracts.
+                    </p>
+                    <div class="hero-cta-group">
+                        <button class="btn btn-primary btn-lg" id="hero-btn-create">
+                            <i class="fa-solid fa-circle-plus"></i> Create Company Profile
+                        </button>
+                        <a href="#companies" class="btn btn-secondary btn-lg">
+                            <i class="fa-solid fa-compass"></i> Explore Companies
+                        </a>
+                    </div>
+                    <!-- Hero Stats -->
+                    <div class="hero-stats-grid">
+                        <div class="hero-stat-card">
+                            <div class="stat-num" data-target="150">0</div>
+                            <div class="stat-label">Verified Enterprises</div>
+                        </div>
+                        <div class="hero-stat-card">
+                            <div class="stat-num" data-target="12000">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="hero-stat-card">
+                            <div class="stat-num" data-target="4500">0</div>
+                            <div class="stat-label">Certified Electricians</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+        </section>
+
+        <!-- Trust Section -->
+        <section id="about" class="trust-section">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Industrial Standards</span>
+                    <h2 class="section-title">Built for Heavy-Duty Engineering</h2>
+                    <p class="section-desc">ElectroConnect connects complex procurement managers with pre-vetted contracting partners. We bridge the gap between heavy industry requirements and specialized engineering talent.</p>
+                </div>
+                <div class="trust-cards-grid">
+                    <div class="trust-card">
+                        <div class="trust-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>100% Vetted Standards</h3>
+                        <p>Every firm on our platform undergoes rigorous credential validation, insurance verification, and OSHA safety record auditing.</p>
+                    </div>
+                    <div class="trust-card">
+                        <div class="trust-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>Smart Matching Engine</h3>
+                        <p>Our algorithm filters partners based on voltage capabilities, PLC programming expertise, and geographic reach to match your project needs.</p>
+                    </div>
+                    <div class="trust-card">
+                        <div class="trust-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3>Performance Tracking</h3>
+                        <p>Analyze post-project performance metrics, adherence to industrial downtime constraints, and milestone timelines.</p>
+                    </div>
+                </div>
+
+                <!-- Trust Stats Grid -->
+                <div class="trust-stats-grid">
+                    <div class="trust-stat-card">
+                        <div class="stat-num" data-target="150">0</div>
+                        <div class="stat-label">Companies Registered</div>
+                    </div>
+                    <div class="trust-stat-card">
+                        <div class="stat-num" data-target="12000">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="trust-stat-card">
+                        <div class="stat-num" data-target="4500">0</div>
+                        <div class="stat-label">Skilled Electricians</div>
+                    </div>
+                    <div class="trust-stat-card">
+                        <div class="stat-num" data-target="99">0</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Platform Capability</span>
+                    <h2 class="section-title">Everything You Need to Showcase Expertise</h2>
+                    <p class="section-desc">Explore the powerful toolsets built for engineering businesses to expand their reach and showcase credentials.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <span class="feature-number">01</span>
+                            <div class="feature-icon"><i class="fa-solid fa-hotel"></i></div>
+                        </div>
+                        <h3>Industrial Profile Editor</h3>
+                        <p>Generate a dynamic, high-fidelity profile complete with voltage specializations, certifications, service catalogs, and active zones.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <span class="feature-number">02</span>
+                            <div class="feature-icon"><i class="fa-solid fa-users-gear"></i></div>
+                        </div>
+                        <h3>Credentials & Crew</h3>
+                        <p>Showcase certified master crew members, details of union affiliations, license verifications, and custom safety badges.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <span class="feature-number">03</span>
+                            <div class="feature-icon"><i class="fa-solid fa-folder-open"></i></div>
+                        </div>
+                        <h3>Interactive Portfolios</h3>
+                        <p>Create detailed visual case studies of complex electrical installations, automated machinery overhauls, and solar microgrid installations.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <span class="feature-number">04</span>
+                            <div class="feature-icon"><i class="fa-solid fa-bullseye"></i></div>
+                        </div>
+                        <h3>Verified RFPs & Leads</h3>
+                        <p>Receive high-intent leads direct from industrial procurement managers, containing detailed schematics, timelines, and budgets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Companies Showcase -->
+        <section id="companies" class="companies-section">
+            <div class="section-container">
+                <div class="section-header flex-header">
+                    <div>
+                        <span class="section-tag">Featured Contractors</span>
+                        <h2 class="section-title">Industry-Leading Partners</h2>
+                    </div>
+                    <!-- Categories Filter -->
+                    <div class="filter-group" id="company-filters">
+                        <button class="filter-btn active" data-filter="all">All Specialties</button>
+                        <button class="filter-btn" data-filter="High Voltage">High Voltage</button>
+                        <button class="filter-btn" data-filter="Automation">Automation</button>
+                        <button class="filter-btn" data-filter="Renewables">Renewables</button>
+                    </div>
+                </div>
+                <!-- Dynamic Companies Grid -->
+                <div class="companies-grid" id="companies-grid-container">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Portfolio Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Industrial Case Studies</span>
+                    <h2 class="section-title">Featured Infrastructure Projects</h2>
+                    <p class="section-desc">Explore complex projects executed by platform partners, highlighting heavy industrial engineering excellence.</p>
+                </div>
+                <!-- Masonry Gallery -->
+                <div class="projects-masonry" id="projects-masonry-container">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Employee Showcase -->
+        <section id="employees" class="employees-section">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Verified Personnel</span>
+                    <h2 class="section-title">Master Crews & Engineering Experts</h2>
+                    <p class="section-desc">Meet the certified specialists powering these operations. Highlighted experience badges showcase high-hazard field capabilities.</p>
+                </div>
+                <!-- Employees Carousel/Grid -->
+                <div class="employees-grid" id="employees-grid-container">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Client Feedback</span>
+                    <h2 class="section-title">What Industrial Clients Say</h2>
+                </div>
+                <div class="testimonials-slider-wrapper">
+                    <div class="testimonials-slider" id="testimonials-slider">
+                        <!-- Slide 1 -->
+                        <div class="testimonial-slide active">
+                            <div class="testi-icon"><i class="fa-solid fa-quote-right"></i></div>
+                            <p class="testi-text">"Finding certified high-voltage contractors for our plant expansion was a major bottleneck. ElectroConnect let us compare verified portfolios and crew licensing, cutting our procurement cycle by 4 weeks."</p>
+                            <div class="testi-author">
+                                <div class="author-info">
+                                    <h4>Marcus Vance</h4>
+                                    <span>Director of Infrastructure, NexaSteel Group</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="testimonial-slide">
+                            <div class="testi-icon"><i class="fa-solid fa-quote-right"></i></div>
+                            <p class="testi-text">"The dashboard allowed us to publish clean RFPs and immediately receive bids from pre-audited automation specialists. Outstanding transparency and professional contractor communication throughout."</p>
+                            <div class="testi-author">
+                                <div class="author-info">
+                                    <h4>Elena Rostova</h4>
+                                    <span>Operations lead, BioPharma Corp</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-dots" id="slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section / RFP Lead Intake -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="contact-card-wrapper">
+                    <div class="contact-info-panel">
+                        <span class="badge-glow">RFP Intake Portal</span>
+                        <h2>Ready to Source Your Next Project?</h2>
+                        <p>Submit your electrical engineering requirements. Verified contractors on our platform will receive your lead and submit competitive bids.</p>
+                        
+                        <div class="contact-features-list">
+                            <div class="contact-feat-item">
+                                <span class="feat-icon"><i class="fa-solid fa-circle-check"></i></span>
+                                <span>Pre-vetted safety logs & certifications</span>
+                            </div>
+                            <div class="contact-feat-item">
+                                <span class="feat-icon"><i class="fa-solid fa-circle-check"></i></span>
+                                <span>Guaranteed response within 48 hours</span>
+                            </div>
+                            <div class="contact-feat-item">
+                                <span class="feat-icon"><i class="fa-solid fa-circle-check"></i></span>
+                                <span>No middleman or broker fees</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel">
+                        <form id="lead-intake-form">
+                            <h3 class="form-title">Submit Industrial Lead</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="lead-name">Your Name</label>
+                                    <input type="text" id="lead-name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lead-email">Business Email</label>
+                                    <input type="email" id="lead-email" placeholder="jdoe@company.com" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="lead-company">Company Name</label>
+                                    <input type="text" id="lead-company" placeholder="Enterprise Corp" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lead-category">Project Category</label>
+                                    <select id="lead-category" required>
+                                        <option value="" disabled selected>Select Category</option>
+                                        <option value="High Voltage">High Voltage Installation</option>
+                                        <option value="Automation">Automation & PLC Programming</option>
+                                        <option value="Renewables">Solar / Renewable Integration</option>
+                                        <option value="Maintenance">Industrial Plant Maintenance</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="lead-budget">Estimated Budget</label>
+                                <select id="lead-budget" required>
+                                    <option value="" disabled selected>Select Budget Range</option>
+                                    <option value="$10k - $50k">$10k - $50k</option>
+                                    <option value="$50k - $200k">$50k - $200k</option>
+                                    <option value="$200k - $1M">$200k - $1M</option>
+                                    <option value="$1M+">$1M+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="lead-description">Scope of Work</label>
+                                <textarea id="lead-description" rows="4" placeholder="Detail the requirements, certifications required, and plant details..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Dispatch Lead
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Footer -->
+        <footer class="site-footer">
+            <div class="section-container footer-container">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-bolt"><i class="fa-solid fa-bolt-lightning"></i></span>
+                        <span class="logo-text">Electro<span class="accent-text">Connect</span></span>
+                    </a>
+                    <p>The premium infrastructure sourcing platform for industrial-grade electrical engineering.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Platform</h4>
+                    <a href="#about">About Us</a>
+                    <a href="#features">Features</a>
+                    <a href="#companies">Showcase</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <a href="#contact">Contact Support</a>
+                    <a href="#">Security audits</a>
+                    <a href="#">OSHA standardizations</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Legals</h4>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">SLA Agreement</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ElectroConnect Inc. All rights reserved. Industrial Grade Infrastructure.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- PREMIUM DASHBOARD VIEW -->
+    <div id="dashboard-page-view" class="hidden">
+        <!-- Sidebar Navigation -->
+        <aside class="dash-sidebar">
+            <div class="sidebar-brand">
+                <span class="logo-bolt"><i class="fa-solid fa-bolt-lightning"></i></span>
+                <span class="logo-text">Electro<span class="accent-text">SaaS</span></span>
+            </div>
+            <nav class="sidebar-menu">
+                <button class="dash-menu-item active" data-tab="overview">
+                    <i class="fa-solid fa-chart-pie"></i> Overview
+                </button>
+                <button class="dash-menu-item" data-tab="profile">
+                    <i class="fa-solid fa-building-user"></i> Company Profile
+                </button>
+                <button class="dash-menu-item" data-tab="employees">
+                    <i class="fa-solid fa-user-gear"></i> Crew Manager
+                </button>
+                <button class="dash-menu-item" data-tab="projects">
+                    <i class="fa-solid fa-diagram-project"></i> Project Manager
+                </button>
+                <button class="dash-menu-item" data-tab="gallery">
+                    <i class="fa-solid fa-images"></i> Gallery Manager
+                </button>
+                <button class="dash-menu-item" data-tab="leads">
+                    <i class="fa-solid fa-envelope-open-text"></i> Leads Inbox <span class="badge-pulse" id="leads-count-badge">0</span>
+                </button>
+                <button class="dash-menu-item" data-tab="analytics">
+                    <i class="fa-solid fa-chart-line"></i> Deep Analytics
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="logged-in-profile">
+                    <div class="user-avatar" id="current-user-avatar">AP</div>
+                    <div class="user-details">
+                        <h4 id="current-user-company">Apex Industrial Systems</h4>
+                        <span>SaaS Enterprise Plan</span>
+                    </div>
+                </div>
+                <button class="btn btn-secondary btn-block btn-sm" id="btn-back-to-landing">
+                    <i class="fa-solid fa-circle-left"></i> View Live Site
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Dashboard Workspace -->
+        <main class="dash-workspace">
+            <!-- Topbar Header -->
+            <header class="dash-topbar">
+                <div class="dash-breadcrumbs">
+                    <span id="breadcrumb-parent">SaaS Console</span> / <span id="breadcrumb-active" class="active">Overview</span>
+                </div>
+                <div class="dash-topbar-actions">
+                    <div class="dash-notifications">
+                        <i class="fa-regular fa-bell"></i>
+                        <span class="noti-badge"></span>
+                    </div>
+                    <div class="company-badge-display">
+                        <span class="active-badge"><i class="fa-solid fa-circle-check"></i> Vetted Active</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- DASHBOARD TABS CONTENT -->
+            <div class="dash-content-container">
+
+                <!-- TAB: OVERVIEW -->
+                <div class="dash-tab-content active" id="tab-overview">
+                    <h2 class="dash-section-title">Dashboard Overview</h2>
+                    
+                    <!-- KPI Cards Grid -->
+                    <div class="dash-kpi-grid">
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fa-solid fa-users"></i></div>
+                            <div class="kpi-info">
+                                <span>Active Leads</span>
+                                <h3 id="kpi-active-leads">0</h3>
+                            </div>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fa-solid fa-folder-tree"></i></div>
+                            <div class="kpi-info">
+                                <span>Published Projects</span>
+                                <h3 id="kpi-published-projects">0</h3>
+                            </div>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fa-solid fa-user-shield"></i></div>
+                            <div class="kpi-info">
+                                <span>Vetted Crew Members</span>
+                                <h3 id="kpi-crew-members">0</h3>
+                            </div>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fa-solid fa-eye"></i></div>
+                            <div class="kpi-info">
+                                <span>Profile Views (Month)</span>
+                                <h3>1,420</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Double Column Layout -->
+                    <div class="dash-columns">
+                        <!-- Chart Column -->
+                        <div class="dash-column-card chart-card">
+                            <div class="column-card-header">
+                                <h4>Weekly Lead Flow</h4>
+                                <span class="chart-subtitle">Direct RFP Submissions</span>
+                            </div>
+                            <div class="canvas-wrapper">
+                                <canvas id="dashboard-leads-canvas"></canvas>
+                            </div>
+                        </div>
+                        <!-- Recent Activity / Info -->
+                        <div class="dash-column-card">
+                            <div class="column-card-header">
+                                <h4>System Logs & Activity</h4>
+                            </div>
+                            <div class="activity-timeline" id="activity-timeline-container">
+                                <!-- Rendered dynamically by JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB: PROFILE EDITOR -->
+                <div class="dash-tab-content" id="tab-profile">
+                    <h2 class="dash-section-title">Company Profile Editor</h2>
+                    <p class="dash-section-desc">Manage how your company is showcased to corporate clients on the public index directory.</p>
+                    
+                    <div class="dash-form-wrapper">
+                        <form id="dash-profile-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="edit-comp-name">Company Name</label>
+                                    <input type="text" id="edit-comp-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="edit-comp-rating">Mock Rating (Stars)</label>
+                                    <select id="edit-comp-rating">
+                                        <option value="5.0">5.0 Star Premium</option>
+                                        <option value="4.9">4.9 Star Excellence</option>
+                                        <option value="4.8">4.8 Star High Grade</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="edit-comp-specialty">Core Specialty Category</label>
+                                    <select id="edit-comp-specialty" required>
+                                        <option value="High Voltage">High Voltage Power Grid</option>
+                                        <option value="Automation">Industrial Automation & PLCs</option>
+                                        <option value="Renewables">Solar / Wind Infrastructure</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="edit-comp-logo">Mock Logo Icon Class</label>
+                                    <select id="edit-comp-logo">
+                                        <option value="fa-solid fa-solar-panel">Solar Panel</option>
+                                        <option value="fa-solid fa-microchip">Microchip (Automation)</option>
+                                        <option value="fa-solid fa-tower-cell">Substation Tower</option>
+                                        <option value="fa-solid fa-industry">Heavy Industry</option>
+                                        <option value="fa-solid fa-charging-station">Charging Systems</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="edit-comp-tagline">Brief Tagline</label>
+                                <input type="text" id="edit-comp-tagline" placeholder="e.g. Next-Generation Automation Solutions" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="edit-comp-description">Full Company Overview</label>
+                                <textarea id="edit-comp-description" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fa-solid fa-floppy-disk"></i> Save Profile Changes
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- TAB: EMPLOYEE MANAGEMENT -->
+                <div class="dash-tab-content" id="tab-employees">
+                    <div class="flex-header">
+                        <div>
+                            <h2 class="dash-section-title">Crew Manager</h2>
+                            <p class="dash-section-desc">Manage verified master crew personnel and certifications displayed on your profile.</p>
+                        </div>
+                        <button class="btn btn-primary btn-sm" id="btn-open-add-crew-modal">
+                            <i class="fa-solid fa-user-plus"></i> Add Crew Member
+                        </button>
+                    </div>
+
+                    <div class="table-wrapper">
+                        <table class="dash-table">
+                            <thead>
+                                <tr>
+                                    <th>Crew Member</th>
+                                    <th>Role</th>
+                                    <th>Experience</th>
+                                    <th>Credentials & Badges</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dash-crew-table-body">
+                                <!-- Rendered dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- TAB: PROJECT MANAGEMENT -->
+                <div class="dash-tab-content" id="tab-projects">
+                    <div class="flex-header">
+                        <div>
+                            <h2 class="dash-section-title">Project Manager</h2>
+                            <p class="dash-section-desc">Add or edit key technical projects showing your complex engineering capabilities.</p>
+                        </div>
+                        <button class="btn btn-primary btn-sm" id="btn-open-add-project-modal">
+                            <i class="fa-solid fa-folder-plus"></i> Add New Project
+                        </button>
+                    </div>
+
+                    <div class="table-wrapper">
+                        <table class="dash-table">
+                            <thead>
+                                <tr>
+                                    <th>Project Title</th>
+                                    <th>Category</th>
+                                    <th>Scale / Scope</th>
+                                    <th>Image Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dash-projects-table-body">
+                                <!-- Rendered dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- TAB: GALLERY MANAGER -->
+                <div class="dash-tab-content" id="tab-gallery">
+                    <h2 class="dash-section-title">Gallery Manager</h2>
+                    <p class="dash-section-desc">Upload, arrange, and manage high-quality asset imagery showing operations on-site.</p>
+                    
+                    <div class="gallery-drag-area">
+                        <div class="drag-icon"><i class="fa-regular fa-images"></i></div>
+                        <h3>Simulated Upload Area</h3>
+                        <p>Drag and drop project files here, or browse files (Max size 10MB per file)</p>
+                    </div>
+
+                    <div class="gallery-grid-manager" id="gallery-grid-manager">
+                        <!-- Simulated Gallery Images with delete markers -->
+                    </div>
+                </div>
+
+                <!-- TAB: LEADS INBOX -->
+                <div class="dash-tab-content" id="tab-leads">
+                    <h2 class="dash-section-title">Industrial Leads Inbox</h2>
+                    <p class="dash-section-desc">Review and manage RFPs submitted directly by industrial clients seeking partnerships.</p>
+                    
+                    <div class="leads-list-wrapper" id="dash-leads-container">
+                        <!-- Rendered by JS -->
+                    </div>
+                </div>
+
+                <!-- TAB: DEEP ANALYTICS -->
+                <div class="dash-tab-content" id="tab-analytics">
+                    <h2 class="dash-section-title">Deep Analytics & Conversion</h2>
+                    <p class="dash-section-desc">High-fidelity metrics showing portfolio conversion rates, ROI estimations, and regional lead distributions.</p>
+                    
+                    <div class="analytics-card-grid">
+                        <div class="analytics-stat-card">
+                            <h4>Profile Conversion Rate</h4>
+                            <div class="stat-value text-blue">8.42%</div>
+                            <p class="stat-delta positive"><i class="fa-solid fa-circle-arrow-up"></i> +1.2% this month</p>
+                        </div>
+                        <div class="analytics-stat-card">
+                            <h4>Average Lead Value</h4>
+                            <div class="stat-value text-gold">$125,000</div>
+                            <p class="stat-delta positive"><i class="fa-solid fa-circle-arrow-up"></i> +8.5% year-to-date</p>
+                        </div>
+                        <div class="analytics-stat-card">
+                            <h4>Search Visibility Rank</h4>
+                            <div class="stat-value text-white">Top 3%</div>
+                            <p class="stat-delta neutral">Within electrical engineering sector</p>
+                        </div>
+                    </div>
+
+                    <div class="dash-columns">
+                        <div class="dash-column-card">
+                            <div class="column-card-header">
+                                <h4>Lead Distribution by Specialty</h4>
+                            </div>
+                            <div class="distribution-list">
+                                <div class="dist-item">
+                                    <span class="dist-label">High Voltage Grid Projects</span>
+                                    <div class="progress-bar-wrapper">
+                                        <div class="progress-bar" style="width: 45%;"></div>
+                                    </div>
+                                    <span class="dist-pct">45%</span>
+                                </div>
+                                <div class="dist-item">
+                                    <span class="dist-label">PLC & Automation Systems</span>
+                                    <div class="progress-bar-wrapper">
+                                        <div class="progress-bar" style="width: 35%;"></div>
+                                    </div>
+                                    <span class="dist-pct">35%</span>
+                                </div>
+                                <div class="dist-item">
+                                    <span class="dist-label">Solar & Renewable Farms</span>
+                                    <div class="progress-bar-wrapper">
+                                        <div class="progress-bar" style="width: 15%;"></div>
+                                    </div>
+                                    <span class="dist-pct">15%</span>
+                                </div>
+                                <div class="dist-item">
+                                    <span class="dist-label">General Maintenance SOWs</span>
+                                    <div class="progress-bar-wrapper">
+                                        <div class="progress-bar" style="width: 5%;"></div>
+                                    </div>
+                                    <span class="dist-pct">5%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dash-column-card">
+                            <div class="column-card-header">
+                                <h4>Regional Reach Analysis</h4>
+                            </div>
+                            <ul class="reach-locations">
+                                <li><span class="loc"><i class="fa-solid fa-map-location-dot"></i> Northeast Zone</span> <span class="badge badge-active">Active Area</span></li>
+                                <li><span class="loc"><i class="fa-solid fa-map-location-dot"></i> Midwest Corridor</span> <span class="badge badge-active">Active Area</span></li>
+                                <li><span class="loc"><i class="fa-solid fa-map-location-dot"></i> Southeast Hub</span> <span class="badge badge-pending">Expansion Pending</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- MODAL: ADD CREW MEMBER -->
+    <div class="modal-overlay hidden" id="modal-crew">
+        <div class="modal-box">
+            <header class="modal-header">
+                <h3>Add Crew Member</h3>
+                <button class="modal-close" id="btn-close-crew-modal"><i class="fa-solid fa-xmark"></i></button>
+            </header>
+            <div class="modal-body">
+                <form id="add-crew-form">
+                    <div class="form-group">
+                        <label for="crew-name">Full Name</label>
+                        <input type="text" id="crew-name" placeholder="E.g., Alan Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="crew-role">Job Title / Role</label>
+                        <input type="text" id="crew-role" placeholder="E.g., Master Electrician" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="crew-experience">Years of Experience</label>
+                        <input type="number" id="crew-experience" min="1" max="50" placeholder="E.g., 12" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="crew-badge">Core Certification Tag</label>
+                        <select id="crew-badge">
+                            <option value="PLC Specialist">PLC Specialist</option>
+                            <option value="HV Certified">High Voltage Certified</option>
+                            <option value="Solar Architect">Solar Infrastructure Architect</option>
+                            <option value="Industrial Safety Lead">Industrial Safety Lead</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Add to Roster</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: ADD PROJECT -->
+    <div class="modal-overlay hidden" id="modal-project">
+        <div class="modal-box">
+            <header class="modal-header">
+                <h3>Add New Project</h3>
+                <button class="modal-close" id="btn-close-project-modal"><i class="fa-solid fa-xmark"></i></button>
+            </header>
+            <div class="modal-body">
+                <form id="add-project-form">
+                    <div class="form-group">
+                        <label for="project-title">Project Title</label>
+                        <input type="text" id="project-title" placeholder="E.g., 22KV Substation Overhaul" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="project-category">Category</label>
+                        <select id="project-category" required>
+                            <option value="High Voltage">High Voltage</option>
+                            <option value="Automation">Automation</option>
+                            <option value="Renewables">Renewables</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="project-scale">Project Scope / Scale</label>
+                        <input type="text" id="project-scale" placeholder="E.g., 400 MWh output / 12 Subsystems" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="project-image-select">Project Image Asset</label>
+                        <select id="project-image-select">
+                            <option value="assets/project_substation.png">Substation Asset (High Voltage)</option>
+                            <option value="assets/project_automation.png">PLC Panel Asset (Automation)</option>
+                            <option value="assets/project_solar.png">Solar Array Asset (Renewables)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Publish Project</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Main JavaScript Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
